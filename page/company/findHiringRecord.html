@@ -18,19 +18,22 @@
 			<div style="margin: 10px 10px 10px 10px">
 				<form class="layui-form layui-form-pane" action="">
 					<div class="layui-form-item">
-						
-					   <div class="layui-input-inline">
-						<input id="cname" type="text" name="cname" placeholder="通过企业名称查询信息" autocomplete="off" class="layui-input">
-					  </div>
-						
-					  <div class="layui-input-inline">
-						<input id="year" type="text" name="grade" placeholder="通过年份查询" autocomplete="off" class="layui-input" readonly>
-					  </div>
-					
+						<div class="layui-inline">
+							<label class="layui-form-label">企业名称</label>
+							<div class="layui-input-inline">
+								<input id="cname" type="text" name="cname" placeholder="通过企业名称查询信息" autocomplete="off" class="layui-input">
+							</div>
+						</div>
+						<div class="layui-inline">
+							<label class="layui-form-label">年份</label>
+							<div class="layui-input-inline">
+								<input id="year" type="text" name="grade" placeholder="通过年份查询" autocomplete="off" class="layui-input" readonly>
+							</div>
+						</div>
 
-					  <div class="layui-inline">
-						<button type="submit" class="layui-btn layui-btn-primary"  lay-submit lay-filter="data-search-btn"><i class="layui-icon"></i> 搜 索</button>
-					  </div>
+						<div class="layui-inline">
+							<button type="submit" class="layui-btn layui-btn-primary"  lay-submit lay-filter="data-search-btn"><i class="layui-icon"></i> 搜 索</button>
+						</div>
 					</div>
 				</form>
 			</div>
